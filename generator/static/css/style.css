@@ -20,6 +20,12 @@ h1 {
     color: #5e7d7eed;
 }
 
+h2 {
+    font-family: "Sedan SC", serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
 .container form, .container h2 {
     background: #9cb07016;
     padding: 20px;
@@ -70,4 +76,13 @@ select {
     letter-spacing: 0.7px;
     color: #1a1a1ab2;
     padding: 7px;
+}
+
+.back-menu {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.back-menu a {
+    text-decoration: none;
 }
