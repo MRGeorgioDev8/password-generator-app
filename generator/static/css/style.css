@@ -1,5 +1,5 @@
 body {
-    background: rgba(255, 255, 224, 0.316);
+    background: #e1e98614;
     font-family: "Oranienbaum", serif;
     font-weight: 400;
     font-style: normal;
@@ -17,7 +17,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 2.6em;
-    color: #5e7d7eed;
+    color: #6c9fa1;
 }
 
 h2 {
@@ -27,7 +27,7 @@ h2 {
 }
 
 .container form, .container h2 {
-    background: #9cb07016;
+    background: #b3fb170d;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 11px;
@@ -49,14 +49,13 @@ input[type="submit"] {
 
 input[type="checkbox"] {
     margin-bottom: 20px;
-    border: 1px solid #5e7d7eed;
 }
 
 .checkbox {
     letter-spacing: 1.1px;
     font-weight: bold;
     padding: 11px;
-    border: 1px solid #5e7d7eb6;
+    border: 1px solid #6c9fa19c;
     border-radius: 4px;
     background-color: white;
     color: #374c4d;
@@ -67,7 +66,7 @@ select {
     margin-bottom: 11px;
     border-radius: 7px;
     vertical-align: 3px;
-    border: 1px solid #5e7d7eed;
+    border: 1px solid #6c9fa19c;
 }
 
 .select-txt{
