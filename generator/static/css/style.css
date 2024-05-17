@@ -62,7 +62,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #f7de69;
-    color:#199b9f;
+    color:#0b6b6e;
     opacity: 0.8;
     scale: 0.98;
     border: 1px solid #6c9fa1;
@@ -110,12 +110,17 @@ select {
 }
 
 #copyButton {
-    vertical-align: top;
+    vertical-align: 4px;
     margin-left: 17px;
     cursor: pointer;
     background-color: #f7de69;
     border: 1px solid #6c9fa1;
     border-radius: 3px;
+}
+
+#copyButton img {
+    width: 20px;
+    height: 20px;
 }
 
 #password {
