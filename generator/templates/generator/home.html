@@ -3,7 +3,7 @@
 {% load static %}
 
 {% block content %}
-    <h1>Password <img src="{% static 'images/keyart.svg' %}" alt="Key Art"> Generator</h1>
+    <h1>Password <img src="{% static 'images/keyart.svg' %}" alt="Key Art">Generator</h1>
 
     <form action="{% url 'password' %}" method="GET">
        <p class="select-txt"> <select name="length">

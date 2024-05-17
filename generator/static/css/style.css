@@ -8,7 +8,7 @@ body {
 .container {
     width: 400px;
     margin: 0 auto;
-    margin-top: 25vh;
+    margin-top: 18vh;
 }
 
 h1 {
@@ -46,6 +46,18 @@ input[type="submit"] {
     box-shadow: 0 0 10px rgba(182, 182, 182, 0.48);
     font-size: 0.9em;
     font-weight: 500;
+    opacity: 1;
+    scale: 1;
+    cursor: pointer;
+    transition: background-color ease-in-out 0.3s, color ease-in-out 0.3s, opacity ease-in-out 0.3s, scale ease-in-out 0.3s, border ease-in-out 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #f7de69;
+    color:#199b9f;
+    opacity: 0.8;
+    scale: 0.98;
+    border: 1px solid #6c9fa1;
 }
 
 input[type="checkbox"] {
@@ -91,6 +103,7 @@ select {
 #copyButton {
     vertical-align: top;
     margin-left: 17px;
+    cursor: pointer;
 }
 
 #password {
