@@ -85,3 +85,12 @@ select {
 .back-menu a {
     text-decoration: none;
 }
+
+#copyButton {
+    vertical-align: top;
+    margin-left: 17px;
+}
+
+#password {
+    margin-right: 36px; 
+}
