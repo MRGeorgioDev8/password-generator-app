@@ -5,7 +5,7 @@
 {% block content %}
     <h1 id="header"> Password <img src="{% static 'images/keyart.svg' %}" alt="Key Art">Generator</h1>
 
-    <form action="{% url 'password' %}" method="GET">
+    <form id="myForm" action="{% url 'password' %}" method="GET">
        <p class="select-txt"> <select name="length">
             {% for i in lst %}
             {% if i == 12 %}
