@@ -2,12 +2,10 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import random
 
-
 def home(request):
     lst = list(range(6, 15))
     # print(lst)  # [6, 7, 8, 9, 10, 11, 12, 13, 14]
     return render(request, "generator/home.html", {'lst': lst})
-
 
 def password(request):
     char = [chr(i) for i in range(97, 123)]
